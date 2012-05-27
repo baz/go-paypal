@@ -7,7 +7,10 @@ Included is a method for using the [Digital Goods for Express Checkout](https://
 
 Quick Start
 ---
-	import "paypal"
+	import (
+			"paypal"
+			"fmt"
+	)
 	
 	client := paypal.NewClient(username, password, signature, true)
 	
